@@ -1,12 +1,15 @@
 // escribe la función max acá
-function max(numeros){
+function max(array){
 
-    let total = 0;
-    for(let i = 0; i < numeros.length; i++) total+=numeros[i];
-    return total;
+        let maxNumber = array[0];
+        for(let i = 1; i < array.length; i++) {
+          if(array[i] > maxNumber) 
+            maxNumber = array[i];
+        }
+        return maxNumber;
 
 }
 
 console.log(max([1, 3, 2])) // 3
 console.log(max([10, 9, 8, 7, 6, 5, 4])) // 10
-console.log(max([])) // undefin
+console.log(max([])) // undefined
