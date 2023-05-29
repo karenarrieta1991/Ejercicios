@@ -18,9 +18,9 @@ const pedro = {
 
   function saluda(nombre){
 
-    let saludo = "Hola me llamo" + nombre;
+    let saludo = "Hola me llamo " + nombre;
     return saludo;
 
 }
 
-console.log(saluda(" Pedro Peréz"))
+console.log(saluda(pedro.nombre))
