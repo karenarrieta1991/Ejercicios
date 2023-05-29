@@ -15,3 +15,12 @@ const pedro = {
     const key = keys[i]
     console.log(keys[i] + ":" , pedro[key])
   }
+
+  function saluda(nombre){
+
+    let saludo = "Hola me llamo" + nombre;
+    return saludo;
+
+}
+
+console.log(saluda(" Pedro Peréz"))
